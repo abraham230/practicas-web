@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS-Hojas de estilo en cascada documento</title>
+</head>
+<body bgcolor="#00cccc">
+	<center>
+
+
+	<h1 id="maintitle">CSS- Hojas de estilos de cascada documento </h1>
+	<style>
+      /* selectores tipo etiqueta */
+      body { 
+        font-family: sans-serif; ;
+           }
+           P {
+           	 line-height:20px; 
+           }
+
+           /*selectores de tipo ID */
+           /* En html se recomienda ultilizar solo un id a la vez, sin repetir */
+           #Subtitulo{ 
+                     color:purple;
+                     }
+
+           #maintitle{
+                     color: dodgerblue ;
+                     }  
+
+                     /* selectores tipo clase*/   
+          .articulo{
+            font-family: courier;
+            margin-bottom: 40px;
+                   }
+
+           .articulo>header{
+            font-weight: bold;
+            font-size: 1.5em; 
+
+                            }
+          /* pt: points, px: pixeles, %: porcentaje, em:?*/
+
+          .contenido{
+            line-height: 1.5em ;
+            text-align: justify;
+                    }
+
+	</style>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, minima nam explicabo. Dignissimos excepturi, at repudiandae, veritatis expedita, molestiae ut tempore qui nulla consectetur minus deserunt optio architecto. Possimus, dolor?</p>
+
+	<h2 id="Subtitulo">Ejemplo de ID</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et molestiae, nihil blanditiis placeat assumenda necessitatibus praesentium ipsam quod vero totam dicta officia, illo ea ipsum suscipit, eum maiores dolores delectus.</p>
+	
+   <section ="articulos">
+   <article class="articulo">
+     <header class="titulo"> Titulo 1 </header>
+       <p class="contenido">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam adipisci inventore, sequi, eaque labore recusandae esse consequatur. Quo est laborum eligendi ratione, repellendus. Recusandae ea quae repudiandae vero, harum cum.</p>
+       <button class="readmore">Leer Más</button>
+
+       </article>
+
+        <article class="articulo">
+    
+       <header class="titulo2"> Titulo 2</header>
+       <p class="contenido">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam adipisci inventore, sequi, eaque labore recusandae esse consequatur. Quo est laborum eligendi ratione, repellendus. Recusandae ea quae repudiandae vero, harum cum.</p>
+       <button class="readmore2">Leer Más</button>
+
+       </article>
+
+        <article class="articulo">
+
+     <header> Titulo 3</header>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam adipisci inventore, sequi, eaque labore recusandae esse consequatur. Quo est laborum eligendi ratione, repellendus. Recusandae ea quae repudiandae vero, harum cum.</p>
+       <button>Leer Más</button>
+
+       </article>
+
+   </section>
+  </center>
+</body>
+</html>
