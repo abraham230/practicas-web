@@ -1,0 +1,95 @@
+/* Selector Universal*/
+
+/* {
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 10px;
+}*/
+
+.container{
+    width: 920px;
+    margin: 0 auto;
+          }
+
+#Encabezado{
+             height:150px;
+             display: flex;
+             justify-content: space-between;
+             align-content: flex-start;
+             align-content: center;
+                 
+            }
+#Encabezado figure{
+    margin: 0;
+                  }
+#titulos *{
+    margin: 0;
+}
+
+#Encabezado h1 {font-size:1.2em }
+#Encabezado h2 {font-size:1.0em }
+#Encabezado h3 {font-size:0.9em }
+#Encabezado h4 {font-size:0.8em }
+
+#menu{
+      height:50px;
+     background-color:
+    display: flex;
+    justify-content: center;
+     }
+     
+#Contenido{
+     background-color: 
+          }
+
+#Nota-Importante{
+    height: 300px;
+    background-color: cornflowerblue;
+                }
+
+#Notas-Secundarias{
+    height: 300px;
+    width: 700px;
+    display: inline-block;
+    float: left;
+    background-color: darkseagreen;
+
+}
+#Publicidad{
+    height: 300px;
+    width: 220px;
+    float: right;
+    background-color: blue
+           }
+
+#Pie{
+    height: 150px;
+    clear: both;
+    background-color: darkgrey;
+              }
+
+#menu li{
+    list-style-type:none;
+    padding: 0;
+    
+        }
+#menu>ul>li{
+    display: inline-block;
+           }
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+           }
+#menu>ul>li>a{
+     padding:10px;
+    background-color: darkgray;
+           }
+#menu li ul{
+    display: none;
+           }
+#menu>ul>li>a:hover {
+    padding: 10px;
+    background-color: lightgray;
+    transition: 3s;
+                    }
