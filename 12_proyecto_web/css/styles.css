@@ -43,9 +43,14 @@
           }
 /*NOTA IMPPORTANTE INICIO */
 #Nota-Importante{
-    height: 300px;
+    height: 360px;
     background-color: cornflowerblue;
+    margin 20px 0;
+    box-shadow: 0 0 15px darkgray;
                 }
+#Nota-Importante img{
+    border: 10px solid white;
+}
 /*NOTA IMPORTANTE FIN*/
 #Notas-Secundarias{
     height: 300px;
