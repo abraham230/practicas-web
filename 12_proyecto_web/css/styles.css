@@ -31,22 +31,22 @@
 #Encabezado h3 {font-size:0.9em }
 #Encabezado h4 {font-size:0.8em }
 
-#menu{
-      height:50px;
-     background-color:
+#menu {
+    height:50px;
     display: flex;
     justify-content: center;
-     }
+    background-color: darkgray;
+}
      
 #Contenido{
      background-color: 
           }
-
+/*NOTA IMPPORTANTE INICIO */
 #Nota-Importante{
     height: 300px;
     background-color: cornflowerblue;
                 }
-
+/*NOTA IMPORTANTE FIN*/
 #Notas-Secundarias{
     height: 300px;
     width: 700px;
@@ -65,31 +65,30 @@
 #Pie{
     height: 150px;
     clear: both;
-    background-color: darkgrey;
-              }
+    background-color: darkgray;
+}
 
 #menu li{
     list-style-type:none;
-    padding: 0;
-    
-        }
-#menu>ul>li{
+}
+#menu>ul>li {
     display: inline-block;
-           }
+}
 
 #menu li a {
     text-decoration: none;
     color: black;
-           }
+}
 #menu>ul>li>a{
      padding:10px;
-    background-color: darkgray;
-           }
+     transition: 0.5s;
+}
 #menu li ul{
     display: none;
-           }
+}
 #menu>ul>li>a:hover {
-    padding: 10px;
     background-color: lightgray;
-    transition: 3s;
-                    }
+}
+#menu ul{
+    padding: 0;
+}
